@@ -1,1 +1,4 @@
 requirements_parser==0.2.0
+click==7.1.2
+setuptools==50.3.2
+autopep8==1.5.4
