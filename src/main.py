@@ -1,11 +1,13 @@
 #entry point for the CLI indicated by the setup config in setup.py  
 import click
 import autopep8
+import pytest
 
 
 @click.command()
 #basic options
-@click.option('--convention', '-n', default='PEP-8', help='Convention that you want to use for your code. Options right now available are PEP-8 and PEP-257', type=str)
+@click.option('--convention', default='PEP-8', help='Convention that you want to use for your code. Options right now available are PEP-8 and PEP-257', type=str)
+
 
 def main(convention):
     """
@@ -17,4 +19,3 @@ def main(convention):
 # def fixcode(convention):
 if __name__ == "__main__":
     main()
-    
