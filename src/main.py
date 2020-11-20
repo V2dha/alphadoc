@@ -1,24 +1,21 @@
 #entry point for the CLI indicated by the setup config in setup.py  
-"""
-All this does is import a few other modules in the src dir, 
-parse args passed to the CLI, and implements those imported module members (a simple function and a simple class).
+import click
+import autopep8
+import pytest
 
-"""
-import sys
-from .classmodule import MyClass
-from .funcmodule import my_function
 
-def main():
-    print('in main')
-    args = sys.argv[1:]
-    print('count of args :: {}'.format(len(args)))
-    for arg in args:
-        print('passed argument :: {}'.format(arg))
+@click.command()
+#basic options
+@click.option('--convention', default='PEP-8', help='Convention that you want to use for your code. Options right now available are PEP-8 and PEP-257', type=str)
 
-    my_function('hello world')
 
-    my_object = MyClass('Vividha')
-    my_object.say_name()
+def main(convention):
+    """
+    Python-cli is a tool to help you document your code better 
+    aligning to the PEP convention styles!
+    """
+    click.echo('Selected convention style for your code is {}'.format(convention))
 
-if __name__ == '__main__':
+# def fixcode(convention):
+if __name__ == "__main__":
     main()

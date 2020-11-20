@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
-import requirements
+# import requirements
 
-install_requires = []
+# install_requires = []
 
-with open('requirements.txt', 'r') as fd:
-    for req in requirements.parse(fd):
-        if req.name:
-            name = req.name.replace("-", "_")
-            full_line = name + "".join(["".join(list(spec)) for spec in req.specs])
-            install_requires.append(full_line)
+# with open('requirements.txt', 'r') as fd:
+#     for req in requirements.parse(fd):
+#         if req.name:
+#             name = req.name.replace("-", "_")
+#             full_line = name + "".join(["".join(list(spec)) for spec in req.specs])
+#             install_requires.append(full_line)
   
 long_description = 'Description of the python package' 
   
@@ -32,6 +32,6 @@ setup(
             "Operating System :: OS Independent", 
         ], 
         keywords ='', 
-        install_requires = install_requires,
+        install_requires = ['click==7.1.2', 'setuptools==50.3.2', 'autopep8==1.5.4'],
         zip_safe = False
 ) 
