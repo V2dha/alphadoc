@@ -32,6 +32,6 @@ setup(
             "Operating System :: OS Independent", 
         ], 
         keywords ='', 
-        install_requires = ['click==7.1.2', 'setuptools==50.3.2', 'autopep8==1.5.4'],
+        install_requires = ["click==7.1.2", "setuptools==50.3.2", "autopep8==1.5.4"],
         zip_safe = False
 ) 
