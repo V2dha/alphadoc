@@ -3,8 +3,16 @@ Automatic docstring generator and style guide that supports a number of specifie
 
 Installation
 ------------
+Using pip:
 
     $ pip install alphacode
+    
+Using local build:
+
+    $ git clone https://github.com/MLH-Fellowship/python-cli.git
+    $ pip install -e .
+    $ python setup.py install
+    $ python setup.py sdist bdist_wheel
 
 Usage
 -----
@@ -23,6 +31,4 @@ Features
 
 Contributing
 -----------
-alphacode is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our CODE OF CONDUCT and CONTRIBUTING GUIDELINES.
-
-Check [CONTRIBUTING.md](CONTRIBUTING.md) for contributing guidelines and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for code of conduct.
+alphacode is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
