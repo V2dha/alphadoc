@@ -3,8 +3,9 @@ from os.path import isfile, join
 import autopep8
 
 class StyleFix:
-    def __init__(self, directory='./', isWalk=False):
+    def __init__(self, directory='./', isWalk=False, options={}):
         self.directory = directory
+        self.options = options
         self.isWalk = isWalk
         if not walk:
             self.python_files = [f for f in listdir(directory) if isfile(join(directory, f)) and f[-3:] == '.py']
@@ -22,7 +23,7 @@ class StyleFix:
             with open(join(self.directory,file), 'r') as f:
                 content = f.read()
                 
-            formatted = autopep8.fix_code(content)
+            formatted = autopep8.fix_code(content, self.options)
 
             print(formatted)
             
