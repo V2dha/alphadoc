@@ -9,7 +9,7 @@ Using pip:
     
 Using local build:
 
-    $ git clone https://github.com/MLH-Fellowship/python-cli.git
+    $ git clone https://github.com/MLH-Fellowship/alphacode.git
     $ pip install -e .
     $ python setup.py install
     $ python setup.py sdist bdist_wheel
@@ -18,7 +18,7 @@ Usage
 -----
 code-style takes your filename and format type as arguments
 
-    $ alphacode --f <filename> --d <doc_format>
+    $ alphacode <filename> --d <doc_format>
 
 See `alphacode --help` for more command-line switches and options!
 
