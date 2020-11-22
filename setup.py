@@ -6,9 +6,9 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
  
   
 setup( 
-        name ='alphacode', 
+        name ='alphadoc', 
         version ='0.0.1',  
-        url ='https://github.com/MLH-Fellowship/alphacode', 
+        url ='https://github.com/MLH-Fellowship/alphadoc', 
         description ='Automatic style guide and docstrings generator for Python code', 
         long_description = long_description, 
         long_description_content_type ="text/markdown", 
@@ -16,7 +16,7 @@ setup(
         packages = find_packages(), 
         entry_points ={ 
             'console_scripts': [ 
-                'alphacode = alphacode.main:main'
+                'alphadoc = alphadoc.main:main'
             ] 
         }, 
         classifiers =[
