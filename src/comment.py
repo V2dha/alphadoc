@@ -43,7 +43,6 @@ def get_doc_blocks(source):
 
 
 if __name__ == '__main__':
-    # test code
     import sys
 
     with open(sys.argv[1]) as fp:

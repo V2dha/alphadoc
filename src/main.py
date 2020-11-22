@@ -1,17 +1,22 @@
 import click
 import autopep8
+from .docstring import get_docstring
 
+info = '''Automatic docstring generator and style guide that 
+          supports a number of specified conventions for formatting 
+          as well as documentation in Python.'''
 
-@click.command()
-#basic options
-@click.option('--convention', default='PEP-8', help='Convention that you want to use for your code. Options right now available are PEP-8 and PEP-257', type=str)
+doc_help = '''Specified format for docstrings from Options-
+                                ReST : For ReStructured Text (default);
+                        Epytext :  For Epytext (Javadoc);
+                        Google : For Google-Style ;
+                        Numpydoc : For Numpydoc'''
+@click.command(help=info)
+@click.argument('filename')
+@click.option('--doc_format', '-d', default='ReST', help=doc_help)
 
-def main(convention):
-    """
-    Python-cli is a tool to help you document your code better 
-    aligning to the PEP convention styles!
-    """
-    click.echo('Selected convention style for your code is {}'.format(convention))
+def main(filename, doc_format):
+    get_docstring(filename, doc_format)
 
-if __name__ == "__main__":
+if __name__ == "__main__" :
     main()
