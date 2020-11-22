@@ -71,8 +71,8 @@ def get_docstring(ast_filename, doc_format):
     for f in function_definitions:
         k+=1
         pos.append(f.lineno) 
-        print(f'Function {k} : {f.name}')
-        print(f'-----------------------')
+        print('Function {} : {}'.format(k, f.name))
+        print('-----------------------')
 
     file = open(ast_filename, "r")
     contents = file.readlines()
