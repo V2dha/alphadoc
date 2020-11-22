@@ -1,5 +1,3 @@
-from main import main
-from docstring import get_docstring
 from click.testing import CliRunner
 
 def test_main(): 

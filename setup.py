@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
-  
-long_description = '''Automatic docstring generator and style guide that 
-                    supports a number of specified conventions for formatting 
-                    as well as documentation in Python.''' 
+import pathlib
+
+here = pathlib.Path(__file__).parent.resolve()
+long_description = (here / 'README.md').read_text(encoding='utf-8')  
+ 
   
 setup( 
         name ='alphacode', 
