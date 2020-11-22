@@ -21,6 +21,8 @@ Features
 * Support for popular python convention styles such as PEP-8 and PEP-257
 * Support for common and widely used docstrings formats such as Numpy, Google, ReStructured Text and Epytext (Javadoc)
 
-Development
+Contributing
 -----------
-Check [CONTRIBUTING.md](CONTRIBUTING.md) for hacking details.
+alphacode is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our CODE OF CONDUCT and CONTRIBUTING GUIDELINES.
+
+Check [CONTRIBUTING.md](CONTRIBUTING.md) for contributing guidelines and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for code of conduct.
