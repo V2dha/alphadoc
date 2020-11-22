@@ -6,7 +6,6 @@ long_description = '''Automatic docstring generator and style guide that
   
 setup( 
         name ='alphacode', 
-        packages = ['alphacode'],
         version ='0.0.1',  
         url ='https://github.com/MLH-Fellowship/alphacode', 
         description ='Automatic style guide and docstrings generator for Python code', 
