@@ -1,5 +1,6 @@
 import click
 import autopep8
+from alphacode.docstring import docstring
 
 info = '''Automatic docstring generator and style guide that 
           supports a number of specified conventions for formatting 
