@@ -1,17 +1,21 @@
-from os import listdir
+from os import listdir, walk
 from os.path import isfile, join
 import autopep8
 
-class Style_Fix:
-    def __init__(self, directory='../test', walk=False):
+class StyleFix:
+    def __init__(self, directory='./', isWalk=False):
         self.directory = directory
-        self.walk = walk
+        self.isWalk = isWalk
         if not walk:
             self.python_files = [f for f in listdir(directory) if isfile(join(directory, f)) and f[-3:] == '.py']
         else:
-            pass
+            self.python_files = []
+            for (dirpath, dirnames, filenames) in walk(directory):
+                self.python_files.extend([f for f in filenames if f[-3:] == '.py'])
+                
+                
         
-    def format_python(self):
+    def format_pep8(self):
         for file in self.python_files:
             content = ""
             
@@ -24,4 +28,6 @@ class Style_Fix:
             
             with open(join(self.directory,file), 'w') as f:
                 f.write(formatted)
+                
         
+
