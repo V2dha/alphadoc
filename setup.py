@@ -13,7 +13,7 @@ setup(
         long_description = long_description, 
         long_description_content_type ="text/markdown", 
         license ='MIT', 
-        packages = find_packages(), 
+        packages = ['alphadoc'], 
         entry_points ={ 
             'console_scripts': [ 
                 'alphadoc = alphadoc.main:main'
