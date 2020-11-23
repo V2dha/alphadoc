@@ -12,7 +12,6 @@ def get_comments(source):
             yield token[1:4]
 
 
-
 def get_comment_blocks(source):
     comments = []
 
@@ -43,7 +42,6 @@ def get_doc_blocks(source):
 
 
 if __name__ == '__main__':
-    # test code
     import sys
 
     with open(sys.argv[1]) as fp:

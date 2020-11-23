@@ -1,34 +1,33 @@
-# alphacode
-Automatic docstring generator and style guide that supports a number of specified conventions for formatting as well as documentation in Python.
+# alphadoc
+Automatic docstring generator and style guide that supports a number of specified conventions for documentation in Python.
 
 Installation
 ------------
 Using pip:
 
-    $ pip install alphacode
+    $ pip install alphadoc
     
 Using local build:
 
-    $ git clone https://github.com/MLH-Fellowship/alphacode.git
+    $ git clone https://github.com/MLH-Fellowship/alphadoc.git
     $ pip install -e .
     $ python setup.py install
     $ python setup.py sdist bdist_wheel
 
 Usage
 -----
-code-style takes your filename and format type as arguments
+alphadoc takes your filename and format type as arguments
 
-    $ alphacode <filename> --d <doc_format>
+    $ alphadoc <filename> --d <doc_format>
 
-See `alphacode --help` for more command-line switches and options!
+See `alphadoc --help` for more command-line switches and options!
 
 Features
 --------
-* Automatically fixes the code according to the style convention specified by the user.
 * Auto-generates docstrings with a customizable template for functions and classes.
-* Support for popular python convention styles such as PEP-8 and PEP-257
+* Automatically fixes the code according to the standard PEP-8 style convention for python.
 * Support for common and widely used docstrings formats such as Numpy, Google, ReStructured Text and Epytext (Javadoc)
 
 Contributing
 -----------
-alphacode is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
+alphadoc is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
