@@ -7,7 +7,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
   
 setup( 
         name ='alphadoc', 
-        version ='0.0.1',  
+        version ='1.0.1',  
         url ='https://github.com/MLH-Fellowship/alphadoc', 
         description ='Automatic style guide and docstrings generator for Python code', 
         long_description = long_description, 
@@ -32,6 +32,7 @@ setup(
         install_requires = [
             "click==7.1.2", 
             "setuptools==50.3.2", 
-            "autopep8==1.5.4"],
+            "autopep8==1.5.4",
+            "pathlib==1.0.1"],
         zip_safe = False
 ) 
