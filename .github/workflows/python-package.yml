@@ -10,11 +10,9 @@ on:
     branches: [ main ]
 
 jobs:
-  tests:
     name: ${{ matrix.name }}
     runs-on: ${{ matrix.os }}
     strategy:
-      fail-fast: false
       matrix:
         include:
           - {name: 'Linux-Python 3.5', python: '3.5', os: ubuntu-latest}
