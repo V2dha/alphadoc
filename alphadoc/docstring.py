@@ -95,8 +95,3 @@ def get_docstring(ast_filename, doc_format):
     contents = "".join(contents)
     file.write(contents)
     file.close()
-
-
-
-
-
