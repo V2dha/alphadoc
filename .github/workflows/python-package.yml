@@ -10,12 +10,20 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
+  tests:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
-        python-version: [3.5, 3.6]
+        include:
+          - {name: 'Linux-Python 3.8', python: '3.8', os: ubuntu-latest}
+          - {name: 'Linux-Python 3.7', python: '3.7', os: ubuntu-latest}
+          - {name: 'Linux-Python 3.6', python: '3.6', os: ubuntu-latest}
+          - {name: 'Mac-Python 3.8', python: '3.8', os: macos-latest}
+          - {name: 'Mac-Python 3.7', python: '3.7', os: macos-latest}
+          - {name: 'Mac-Python 3.6', python: '3.6', os: macos-latest}
+
 
     steps:
     - uses: actions/checkout@v2
