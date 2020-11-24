@@ -43,7 +43,6 @@ def get_doc_blocks(source):
 
 if __name__ == '__main__':
     import sys
-
     with open(sys.argv[1]) as fp:
         for comment, start, end in get_comment_blocks(fp):
             heading = "Line %s" % (start[0])
