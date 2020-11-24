@@ -2,6 +2,7 @@ from os import listdir, walk
 from os.path import isfile, join
 import autopep8
 
+
 class StyleFix:
     def __init__(self, directory='./', isWalk=False, options={}):
         self.directory = directory
@@ -14,8 +15,6 @@ class StyleFix:
             for (dirpath, dirnames, filenames) in walk(directory):
                 self.python_files.extend([f for f in filenames if f[-3:] == '.py'])
                 
-                
-        
     def format_pep8(self):
         for file in self.python_files:
             content = ""
