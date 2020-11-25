@@ -22,7 +22,7 @@ Usage
 -----
 alphadoc takes your filename and format type as arguments
 
-    $ alphadoc <filename> --d <doc_format>
+    $ alphadoc <filename> -d <doc_format>
 
 See `alphadoc --help` for more command-line switches and options!
 
