@@ -3,6 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/alphadoc.svg?color=green&style=for-the-badge)](https://pypi.org/project/pdoc3)
 ![ISSUES](https://img.shields.io/github/issues-closed/MLH-Fellowship/alphadoc?color=blue&style=for-the-badge)
 ![PULL REQUESTS](https://img.shields.io/github/issues-pr-closed/MLH-Fellowship/alphadoc?color=orange&style=for-the-badge)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/alphadoc?style=for-the-badge)
     
 Automatic docstring generator and style guide that supports a number of specified conventions for documentation in Python.
 
