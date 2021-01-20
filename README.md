@@ -328,7 +328,7 @@ Thanks goes to these wonderful people ✨✨:
               <sub><b>V2dha</b></sub>
             </a><br/>
             <a href="https://github.com/MLH-Fellowship/alphadoc/commits?author=V2dha">
-                👑 💻 📖 👀 📆 💬 Author
+                💻 📖 👀 📆 💬 
             </a>
           </td>
         <td align="center">
@@ -337,7 +337,7 @@ Thanks goes to these wonderful people ✨✨:
               <sub><b>eamspoker</b></sub>
             </a><br/>
             <a href="https://github.com/MLH-Fellowship/alphadoc/commits?author=eamspoker">
-                💻
+                💻 🤔 
             </a>
           </td>
         <td align="center">
