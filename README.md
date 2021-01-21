@@ -316,9 +316,9 @@ Contributing
 -----------
 alphadoc is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## Contributors 🌟 
+## Contributors 
 
-Thanks goes to these wonderful people ✨✨:
+Thanks goes to these wonderful people :
 <table>
   <!--- Row 1 --->
 	<tr>
