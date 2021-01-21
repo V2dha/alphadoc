@@ -318,7 +318,7 @@ alphadoc is fully Open-Source and open for contributions! We request you to resp
 
 ## Contributors 
 
-Thanks goes to these wonderful people :
+Thanks goes to these wonderful people ⭐ 
 <table>
   <!--- Row 1 --->
 	<tr>
