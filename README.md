@@ -340,3 +340,9 @@ alphadoc is fully Open-Source and open for contributions! We request you to resp
           </td>
      </tr>
 </table>
+
+<a href="https://github.com/MLH-Fellowship/alphadoc/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MLH-Fellowship/alphadoc" />
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
