@@ -1,6 +1,5 @@
 from click.testing import CliRunner
 from alphadoc.main import main
-from alphadoc.docstring import get_docstring
 
 def test_main(): 
     runner = CliRunner()

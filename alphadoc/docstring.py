@@ -1,5 +1,4 @@
 import ast
-import os
 
 def get_docstring(ast_filename, doc_format):
     rest = '''    """

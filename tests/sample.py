@@ -1,5 +1,4 @@
 import ast
-import sys
 
 def top_level_functions(body):
     return (f for f in body if isinstance(f, ast.FunctionDef))
