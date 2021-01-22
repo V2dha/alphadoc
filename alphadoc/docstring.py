@@ -1,5 +1,4 @@
 import ast
-import os
 
 def get_docstring(ast_filename, doc_format):
     rest = '''    """
@@ -74,9 +73,9 @@ def get_docstring(ast_filename, doc_format):
         print('Function {} : {}'.format(k, f.name))
         print('-----------------------')
 
-    file = open(ast_filename, "r")
-    contents = file.readlines()
-    file.close()
+    with open(ast_filename, "r") as file:
+        contents = file.readlines()
+
     j=0
     for i in pos:
         if doc_format == 'ReST':
@@ -91,7 +90,6 @@ def get_docstring(ast_filename, doc_format):
             print('No such format exists!')
             break
         j+=1
-    file = open(ast_filename, "w")
-    contents = "".join(contents)
-    file.write(contents)
-    file.close()
+    with open(ast_filename, "w") as file:
+        contents = "".join(contents)
+        file.write(contents)

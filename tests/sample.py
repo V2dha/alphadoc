@@ -1,5 +1,4 @@
 import ast
-import sys
 
 def top_level_functions(body):
     return (f for f in body if isinstance(f, ast.FunctionDef))
@@ -14,10 +13,3 @@ def get_func(filename):
     for func in top_level_functions(tree.body):
         func_list.append(func.name)
     return func_list
-
-
-
-
-
-
-
