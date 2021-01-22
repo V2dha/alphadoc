@@ -317,29 +317,6 @@ Contributing
 alphadoc is fully Open-Source and open for contributions! We request you to respect our contribution guidelines as defined in our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Contributors 
-<table>
-  <!--- Row 1 --->
-	<tr>
-        <td align="center">
-            <a href="https://github.com/V2dha">
-              <img src="https://avatars1.githubusercontent.com/u/50369708?v=4" width="100px" alt=""/><br />
-              <sub><b>V2dha</b></sub>
-            </a><br/>
-            <a href="https://github.com/MLH-Fellowship/alphadoc/commits?author=V2dha">
-                💻 📖 👀 📆 💬 
-            </a>
-          </td>
-        <td align="center">
-            <a href="https://github.com/eamspoker">
-              <img src="https://avatars1.githubusercontent.com/u/46005655?v=4" width="100px" alt=""/><br />
-              <sub><b>eamspoker</b></sub>
-            </a><br/>
-            <a href="https://github.com/MLH-Fellowship/alphadoc/commits?author=eamspoker">
-                💻 🤔
-            </a>
-          </td>
-     </tr>
-</table>
 
 <a href="https://github.com/MLH-Fellowship/alphadoc/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MLH-Fellowship/alphadoc" />
