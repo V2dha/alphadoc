@@ -13,10 +13,3 @@ def get_func(filename):
     for func in top_level_functions(tree.body):
         func_list.append(func.name)
     return func_list
-
-
-
-
-
-
-
