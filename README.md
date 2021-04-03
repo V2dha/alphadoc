@@ -19,6 +19,10 @@ Using pip:
 
     $ pip install alphadoc
 
+Demo
+-----
+<img src="demo/demo.gif">
+
 Usage
 -----
 alphadoc takes your filename and format type as arguments
