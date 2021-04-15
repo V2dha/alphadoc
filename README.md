@@ -10,7 +10,6 @@ Automatic docstring generator and style guide that supports a number of specifie
 Features
 --------
 * Auto-generates docstrings with a customizable template for functions.
-* Automatically fixes the code according to the standard PEP-8 style convention for python.
 * Support for common and widely used docstrings formats such as Numpy, Google, ReStructured Text and Epytext (Javadoc)
 
 Installation
